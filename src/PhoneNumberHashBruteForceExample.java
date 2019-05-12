@@ -5,6 +5,12 @@ import java.util.concurrent.TimeUnit;
 
 import fr.cryptohash.SHA256;
 
+/**
+ * Example of code to brute force all possible phone numbers to demonstrate 
+ * the lack of security in trying to hash phone numbers.
+ * 
+ * @author Zachary Chandler
+ */
 public class PhoneNumberHashBruteForceExample {
 
 	public static final long MAX_PHONE_NUMBER = 1_000_000_0000L;
